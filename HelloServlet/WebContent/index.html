@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="HelloServlet" method ="get">
+    <input type="submit" value="HelloWorld"/>
+</form>
+<form action="HelloServlet" method="post">
+<h1> please fill in the form</h1>
+    Name: <input name="username" />
+    <br><br>
+    Age: <input name="userage" />
+    <br><br>
+    Gender: <input type="radio" name="gender" value="male" " checked />Male
+    <input type="radio" name="gender" value="female" />Female
+    <br><br>
+    Country: <select name="country">
+        <option>Ukraine</option>
+        <option>Canada</option>
+        <option>Spain</option>
+        <option>Russian</option>
+        <option>France</option>
+        <option>Germany</option>
+    </select>
+    <br><br>
+    Courses: 
+    <input type="checkbox" name="courses" value="JavaSE" checked />Java SE
+    <input type="checkbox" name="courses" value="JavaFX" checked />Java FX
+    <input type="checkbox" name="courses" value="JavaEE" checked />Java EE
+    <br><br>
+    <input type="submit" value="Submit" />
+</form>
+</body>
+</html>
